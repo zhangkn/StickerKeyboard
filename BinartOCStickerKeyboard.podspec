@@ -32,7 +32,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'BinartOCStickerKeyboard/Classes/**/*'
   
-  spec.resources = ['BinartOCStickerKeyboard/Assets/SampleSticker.bundle', 'BinartOCStickerKeyboard/Assets/SampleSticker.plist']
+  s.resources = [
+    'BinartOCStickerKeyboard/Assets/SampleSticker.bundle', 
+    'BinartOCStickerKeyboard/Assets/SampleSticker.plist'
+  ]
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
